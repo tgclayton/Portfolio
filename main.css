@@ -15,8 +15,11 @@ html {
   position: absolute;
 }
 
-.cyan-text {
-  color: rgb(243, 242, 225);
+.smoke-text {
+  color: whitesmoke;
+}
+
+.text-shadow {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
