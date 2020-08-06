@@ -6,13 +6,20 @@ body {
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#full-site {
+  height: 100%;
+  width: 100vw
 }
 
 .full-page {
   height: 100vh;
   width: 100vw;
   text-align: center;
-  position: absolute;
+  position: relative;
 }
 
 .smoke-text {
@@ -21,18 +28,25 @@ html {
 
 .nav-button {
   padding: 1em;
-  margin: 1em;
+  margin:0 1em;
   font-size: 1.5em;
 }
 
 #nav-bar {
   background-color: rgb(211, 211, 211, 0.2);
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  z-index: 100;
 }
 
 .flex-container {
   display: flex;
   justify-content: center;
+}
+
+.column-flex {
+  flex-direction: column;
 }
 
 .text-shadow {
@@ -51,7 +65,7 @@ html {
 
 .main-title {
   font-size: 5em;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 
 .subtitle {
@@ -61,5 +75,11 @@ html {
 #landing-title-box {
 font-family: 'Oswald', sans-serif;
 width: 35vw;
-margin: 20vh auto;
+margin: auto;
+position: relative;
+top: 20vh;
 }
+
+/* .second-block {
+  top: 100vh;
+} */
