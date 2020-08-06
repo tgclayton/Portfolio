@@ -10,6 +10,10 @@ html {
   width: 100%;
 }
 
+:visited {
+  color: whitesmoke;
+}
+
 #full-site {
   height: 100%;
   width: 100vw
@@ -33,7 +37,7 @@ html {
 }
 
 #nav-bar {
-  background-color: rgb(211, 211, 211, 0.2);
+  background-color: rgb(211, 211, 211, 0.3);
   position: fixed;
   bottom: 0;
   width: 100vw;
@@ -53,13 +57,13 @@ html {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
-.circuit-background {
+.keyboard-background {
   background-image: url('./images/glow-keyboard.jpg');
   background-size: cover;
 }
 
-.clockwork-background {
-  background-image: url('./images/grey-clockwork.jpg');
+.circuit-background {
+  background-image: url('./images/blue-circuit.jpg');
   background-size: cover;
 }
 
@@ -80,6 +84,14 @@ position: relative;
 top: 20vh;
 }
 
-/* .second-block {
-  top: 100vh;
-} */
+.blue {
+  background-color: lightblue;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.green {
+  background-color: lightgreen;
+}
