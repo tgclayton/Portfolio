@@ -19,6 +19,22 @@ html {
   color: whitesmoke;
 }
 
+.nav-button {
+  padding: 1em;
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+#nav-bar {
+  background-color: rgb(211, 211, 211, 0.2);
+  position: sticky;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
 .text-shadow {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
@@ -35,16 +51,15 @@ html {
 
 .main-title {
   font-size: 5em;
+  margin-bottom: 0;
 }
 
 .subtitle {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 #landing-title-box {
 font-family: 'Oswald', sans-serif;
 width: 35vw;
 margin: 20vh auto;
-
-
 }
