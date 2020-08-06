@@ -1,11 +1,47 @@
 body {
   margin: 0;
-  padding: 0git;
+  padding: 0;
 }
 
-#main-page {
-  background-image: url('./images/grey-clockwork.jpg');
-  background-size: cover;
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.full-page {
   height: 100vh;
   width: 100vw;
+  text-align: center;
+  position: absolute;
+}
+
+.cyan-text {
+  color: rgb(243, 242, 225);
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+.circuit-background {
+  background-image: url('./images/glow-keyboard.jpg');
+  background-size: cover;
+}
+
+.clockwork-background {
+  background-image: url('./images/grey-clockwork.jpg');
+  background-size: cover;
+}
+
+.main-title {
+  font-size: 5em;
+}
+
+.subtitle {
+  font-size: 3em;
+}
+
+#landing-title-box {
+font-family: 'Oswald', sans-serif;
+width: 35vw;
+margin: 20vh auto;
+
+
 }
