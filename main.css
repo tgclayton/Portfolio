@@ -4,6 +4,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -37,6 +41,10 @@ html {
   padding: 1em;
   margin:0 1em;
   font-size: 1.5em;
+}
+
+.nav-button:hover {
+  background-color: rgba(70, 70, 70, 0.664);
 }
 
 #nav-bar {
