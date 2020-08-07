@@ -34,7 +34,7 @@ html {
 }
 
 .smoke-text {
-  color: whitesmoke;
+  color: ivory;
 }
 
 .nav-button {
@@ -138,4 +138,23 @@ padding-top: 1em;
 
 .grey {
   background-color: rgb(31, 31, 31);
+}
+
+.grid-container {
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 33.333%);
+  grid-template-rows: repeat(2, 50%);
+  height: 50vh;
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+.project-box {
+  justify-self: center;
+  align-self: center;
+width: 10em;
+height: 7em;
+background-color: ivory;
+border: 1pt solid black;
 }
