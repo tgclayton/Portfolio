@@ -26,6 +26,7 @@ html {
   width: 100vw;
   text-align: center;
   position: relative;
+  border-bottom: 2pt solid black;
 }
 
 .smoke-text {
@@ -109,12 +110,19 @@ padding: 15vh 0 5vh;
   /* background-color: rgba(33, 9, 170, 0.589); */
 }
 
+
+.page-header {
+margin-top: 0;
+font-size: 3em;
+padding-top: 1em;
+}
+
 .blue {
-  background-color: lightblue;
+  background-color: rgb(149, 211, 231);
 }
 
 .grey {
-  background-color: grey;
+  background-color: rgb(31, 31, 31);
 }
 
 .green {
