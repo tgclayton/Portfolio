@@ -118,21 +118,24 @@ padding: 15vh 0 5vh;
   /* background-color: rgba(33, 9, 170, 0.589); */
 }
 
-
 .page-header {
 margin-top: 0;
 font-size: 3em;
 padding-top: 1em;
 }
 
-.blue {
-  background-color: rgb(149, 211, 231);
+#project-header {
+  text-shadow:
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
 }
 
 .grey {
   background-color: rgb(31, 31, 31);
-}
-
-.green {
-  background-color: rgb(173, 226, 173);
 }
