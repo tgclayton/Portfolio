@@ -55,7 +55,7 @@ html {
 }
 
 .text-shadow {
-  text-shadow: 2px 0 0 #000, 0 -2px 0 #000, 0 2px 0 #000, -2px 0 0 #000;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 
 .keyboard-background {
@@ -75,6 +75,7 @@ html {
 
 .subtitle {
   font-size: 2em;
+  margin-top: 0;
 }
 
 #landing-title-box {
@@ -86,10 +87,18 @@ padding: 15vh 0 5vh;
 
 #landing-bio {
   position: relative;
-  width: 40vw;
-  margin: auto;
+  width: 100%;
+  margin:1.5em auto;
   font-size: 1.5em;
+  background-color: rgb(54, 54, 54);
+  text-align: center;
 }
+
+#landing-bio p {
+  width: 40%;
+  margin: auto;
+}
+
 .blue {
   background-color: lightblue;
 }
