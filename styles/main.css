@@ -78,12 +78,12 @@ html {
 }
 
 .keyboard-background {
-  background-image: url('./images/glow-keyboard.jpg');
+  background-image: url('../images/glow-keyboard.jpg');
   background-size: cover;
 }
 
 .circuit-background {
-  background-image: url('./images/blue-circuit.jpg');
+  background-image: url('../images/blue-circuit.jpg');
   background-size: cover;
 }
 
