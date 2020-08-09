@@ -159,4 +159,17 @@ width: 10em;
 height: 7em;
 background-color: ivory;
 border: 1pt solid black;
+position: relative;
+text-align: center;
+}
+
+.project-name {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto
 }
