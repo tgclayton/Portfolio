@@ -51,27 +51,27 @@
     <div id='projects-grid' class='grid-container'>
       <a class='project-box' href="">
         <div>
-          <p class='project-name'>NetLazy</p>
+          <p class='project-name vertical-center horizontal-center'>NetLazy</p>
         </div>
       </a>
       <a class='project-box' href="">
         <div>
-          <p class='project-name'>Game of Life</p>
+          <p class='project-name vertical-center horizontal-center'>Game of Life</p>
         </div>
       </a>
       <a class='project-box' href="">
         <div>
-          <p class='project-name'>Trial by Seven</p>
+          <p class='project-name vertical-center horizontal-center'>Trial by Seven</p>
         </div>
       </a>
       <a class='project-box' href="">
         <div>
-          <p class='project-name'>JavaScript Carnival</p>
+          <p class='project-name vertical-center horizontal-center'>JavaScript Carnival</p>
         </div>
       </a>
       <a class='project-box' href="">
         <div>
-          <p class='project-name'>Bootcamp Projects</p>
+          <p class='project-name vertical-center horizontal-center'>Bootcamp Projects</p>
         </div>
       </a>
     </div>
@@ -83,7 +83,14 @@
       <p>LinkedIn: <a
           href="https://www.linkedin.com/in/tom-clayton-a634221aa/">linkedin.com/in/tom-clayton-a634221aa</a></p>
       <p>Email: <span style = 'color: ivory;'>tgclayton1@gmail.com</span> </p>
-      <button>Send Me A Message</button>
+      <button onclick="toggleSendMessage()">Send Me A Message</button>
+    </div>
+    <div id = 'message-window' class = 'horizontal-center vertical-center hidden'>
+      <form action="">
+        Subject: <input type="text">
+        Message:<input type="text">
+      </form>
+      <button onclick="toggleSendMessage()">Close</button>
     </div>
   </div>
 </body>
