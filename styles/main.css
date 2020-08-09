@@ -161,10 +161,12 @@ text-decoration: underline;
 .project-box {
   justify-self: center;
   align-self: center;
-width: 10em;
-height: 7em;
+width: 15vw;
+height: 15vh;
+/* min-width: 150px;
+min-height: 100px; */
 background-color: ivory;
-border: 1pt solid black;
+border: 2pt solid black;
 position: relative;
 text-align: center;
 }
