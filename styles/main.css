@@ -4,11 +4,6 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-a {
-
-
-}
-
 html {
   margin: 0;
   padding: 0;
@@ -160,6 +155,20 @@ padding-top: 1em;
   margin-left: 5vw;
 }
 
+.vertical-center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.horizontal-center {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+}
+
 .project-box {
   justify-self: center;
   align-self: center;
@@ -173,13 +182,32 @@ box-shadow:4px 4px rgb(18, 36, 53);
 }
 
 .project-name {
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
   color: black;
+}
+
+#contact-page div {
+background-color: rgb(15, 138, 196, .8);
+}
+
+#contact-page p {
+font-size: x-large;
+padding: 1em;
+}
+
+#contact-page a:visited {
+  color: black;
+}
+
+#contact-page button {
+  padding: 1em;
+  margin: 1em;
+  font-family: 'Oswald', sans-serif;
+  font-size: larger;
+  background-color: ivory;
+  border-color: rgb(7, 81, 150);
+  outline: none;
+}
+
+#contact-page button:active {
+  background-color: rgb(230, 230, 216);
 }
