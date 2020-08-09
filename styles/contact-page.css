@@ -1,0 +1,30 @@
+#contact-page div {
+  background-color: rgb(15, 138, 196, .8);
+  }
+  
+  #contact-page p {
+  font-size: x-large;
+  padding: 1em;
+  }
+  
+  #contact-page a {
+    color: ivory;
+  }
+  
+  #contact-page a:visited {
+    color: ivory;
+  }
+  
+  #contact-page button {
+    padding: .5em;
+    margin: .5em;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    background-color: ivory;
+    border-color: rgb(7, 81, 150);
+    outline: none;
+  }
+  
+  #contact-page button:active {
+    background-color: rgb(230, 230, 216);
+  }
