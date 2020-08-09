@@ -131,18 +131,6 @@ padding-top: 1em;
 /* text-decoration: underline; */
 }
 
-#project-header {
-  text-shadow:
-  0.05em 0 black,
-  0 0.05em black,
-  -0.05em 0 black,
-  0 -0.05em black,
-  -0.05em -0.05em black,
-  -0.05em 0.05em black,
-  0.05em -0.05em black,
-  0.05em 0.05em black;
-}
-
 .grey {
   background-color: rgb(33, 157, 173);
 }
