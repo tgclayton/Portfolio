@@ -88,8 +88,23 @@ html {
   background-size: cover;
 }
 
-.circuit-background {
-  background-image: url('../images/blue-circuit.jpg');
+.circuit1-background {
+  background-image: url('../images/circuit1.jpg');
+  background-size: cover;
+}
+
+.circuit2-background {
+  background-image: url('../images/circuit2.jpg');
+  background-size: cover;
+}
+
+.circuit3-background {
+  background-image: url('../images/circuit3.png');
+  background-size: cover;
+}
+
+.circuit4-background {
+  background-image: url('../images/circuit4.jpg');
   background-size: cover;
 }
 
@@ -131,9 +146,9 @@ padding-top: 1em;
 /* text-decoration: underline; */
 }
 
-.grey {
+/* .grey {
   background-color: rgb(33, 157, 173);
-}
+} */
 
 .grid-container {
   padding-top: 3em;
