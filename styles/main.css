@@ -185,13 +185,6 @@ box-shadow:4px 4px rgb(18, 36, 53);
   color: black;
 }
 
-#message-window {
- width: 60vw;
- height: 60vh;
- z-index: 1000;
- border: 2pt solid black;
-}
-
 .hidden {
   display: none;
 }

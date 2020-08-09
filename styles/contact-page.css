@@ -28,3 +28,10 @@
   #contact-page button:active {
     background-color: rgb(230, 230, 216);
   }
+
+  #message-window {
+    width: 60vw;
+    height: 60vh;
+    z-index: 1000;
+    border: 2pt solid black;
+   }
