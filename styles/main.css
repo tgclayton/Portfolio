@@ -73,14 +73,14 @@ html {
 
 .text-shadow {
   text-shadow:
-  0.075em 0 black,
-  0 0.075em black,
-  -0.075em 0 black,
-  0 -0.075em black,
-  -0.075em -0.075em black,
-  -0.075em 0.075em black,
-  0.075em -0.075em black,
-  0.075em 0.075em black;
+  0.05em 0 black,
+  0 0.05em black,
+  -0.05em 0 black,
+  0 -0.05em black,
+  -0.05em -0.05em black,
+  -0.05em 0.05em black,
+  0.05em -0.05em black,
+  0.05em 0.05em black;
 }
 
 .keyboard-background {
@@ -115,7 +115,6 @@ padding: 15vh 0 5vh;
   width: 100%;
   margin:1.5em auto;
   font-size: 1.5em;
-
   text-align: center;
 }
 
@@ -129,7 +128,7 @@ padding: 15vh 0 5vh;
 margin-top: 0;
 font-size: 3em;
 padding-top: 1em;
-text-decoration: underline;
+/* text-decoration: underline; */
 }
 
 #project-header {
@@ -163,8 +162,6 @@ text-decoration: underline;
   align-self: center;
 width: 15vw;
 height: 15vh;
-/* min-width: 150px;
-min-height: 100px; */
 background-color: ivory;
 border: 2pt solid black;
 position: relative;
