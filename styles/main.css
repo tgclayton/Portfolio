@@ -151,9 +151,10 @@ padding-top: 1em;
 width: 15vw;
 height: 15vh;
 background-color: ivory;
-border: 2pt solid black;
+border: 1pt solid black;
 position: relative;
 text-align: center;
+box-shadow:4px 4px rgb(18, 36, 53);
 }
 
 .project-name {
