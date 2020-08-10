@@ -185,6 +185,13 @@ box-shadow:4px 4px rgb(18, 36, 53);
   color: black;
 }
 
+#big-project-box {
+  height: 70vh;
+  width: 70vw;
+  background-color: ivory;
+  border: 2pt solid black;
+}
+
 .hidden {
   display: none;
 }
