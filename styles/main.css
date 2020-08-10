@@ -59,6 +59,7 @@ div {
   height: 3em;
 }
 
+
 .nav-button:visited {
   color: whitesmoke;
   text-decoration: none;
@@ -146,11 +147,15 @@ padding: 15vh 0 5vh;
 }
 
 .page-header {
-margin-top: 0;
+margin: 0;
 font-size: 3em;
-padding-top: 2em;
 position: relative;
 /* text-decoration: underline; */
+}
+
+.header-box {
+  position: relative;
+  height: 20%;
 }
 
 .grid-container {
@@ -184,8 +189,19 @@ position: relative;
 .footer-space {
   position: relative;
   z-index: 0;
-  height: 3.3em ;
+  height: 13% ;
   font-size: 1.5em;
   bottom: 0px;
+  width: 100%;
+}
+
+#about-page-body {
+  height: 67%;
+  position: relative;
+}
+
+#about-info {
+  height: 80%;
+  background-color: rgb(18, 36, 53, .7);
   width: 100%;
 }

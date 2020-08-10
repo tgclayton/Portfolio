@@ -12,7 +12,8 @@
 </head>
 
 <body>
-  <div id='main-container' class="flex-container"></div>
+
+  <!-- Landing Page -->
   <div id='landing-page' class='full-page keyboard-background smoke-text text-shadow'>
     <div id='landing-title-box' class='smoke-text text-shadow'>
       <p class=" main-title">Tom Clayton</p>
@@ -43,15 +44,26 @@
     </div>
     <div class="footer-space"></div>
   </div>
+
+
+  <!-- About Page -->
   <div id='about-page' class='full-page circuit2-background'>
-    <h2 class='page-header smoke-text text-shadow'>About Me</h2>
+    <div class="header-box"><h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>About Me</h2></div>
+    <div id="about-page-body">
+      <div id="about-info" class="vertical-center">
+
+      </div>
+    </div>
     <div class="footer-space"></div>
   </div>
   <!-- <div id='skills-page' class='full-page grey'>
     <h2 class='page-header smoke-text text-shadow'>Skills</h2>
   </div> -->
+
+
+  <!-- Projects Page -->
   <div id='projects-page' class='full-page circuit1-background'>
-    <h2 id='project-header' class='page-header smoke-text text-shadow'>Projects</h2>
+    <div class="header-box"><h2 id='project-header' class='page-header smoke-text text-shadow vertical-center horizontal-center'>Projects</h2></div>
     <div id='projects-grid' class='grid-container'>
       <div id="netlazy-project" class='project-box'>
         <p id="netlazy-project-title" class='project-name vertical-center horizontal-center'>NetLazy</p>
@@ -73,8 +85,11 @@
       <h2 id='bp-title'></h2>
     </div>
   </div>
+
+
+  <!-- Contact Page -->
   <div id='contact-page' class='full-page circuit4-background'>
-    <h2 class='page-header smoke-text text-shadow'>Contact</h2>
+    <div class="header-box"><h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>Contact</h2></div>
     <div id='contact-info-container'>
       <div id='contact-info-box' class="horizontal-center vertical-center">
         <p class="contact-page-p">GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
@@ -95,11 +110,11 @@
           <button onclick="toggleSendMessage()">Close</button>
           <button>Submit</button>
         </div>
-
       </div>
     </div>
     <div class='footer-space'></div>
   </div>
+
 </body>
 <script src="./scripts/script.js"></script>
 
