@@ -17,8 +17,8 @@ function toggleSendMessage () {
 
 function toggleBigProject (e, id) {
   bigProject.classList.toggle('hidden')
-  const title = document.getElementById(id).innerText
   if (!bigProject.classList.contains('hidden')) {
+    const title = document.getElementById(id).innerText
     document.getElementById('bp-title').innerHTML = title
   }
 }

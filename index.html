@@ -47,23 +47,25 @@
 
   <!-- About Page -->
   <div id='about-page' class='full-page circuit2-background'>
-    <div class="header-box"><h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>About Me</h2></div>
+    <div class="header-box">
+      <h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>About Me</h2>
+    </div>
     <div id="about-page-body">
       <div id="about-info" class="vertical-center">
         <p class="smoke-text" style="max-width: 70%; margin: 2em auto; font-size: 1.2em;">
           I'm Tom Clayton and I'm currently in the process of making a career transition into web development.
-          Until the end of 2019 I was a self employed Marine Spray-Painter, but I decided that that was not a fulfilling 
+          Until the end of 2019 I was a self employed Marine Spray-Painter, but I decided that that was not a fulfilling
           or mentally engaging enough career so after some investigation and advice I settled on web development
           as the path forward for me. To make that happen in the first half of 2020 I studied with Enspiral Dev Academy,
-          a full immersion work simulation full stack web development bootcamp. I went from having no knowledge 
+          a full immersion work simulation full stack web development bootcamp. I went from having no knowledge
           or experience with code to writing full stack JavaScript applications over the course of 15 weeks, while
           also learning and applying agile methodologies and team coding practices. In the course of this
           experience I discovered in myself a joy in solving problems, making things work and writing beautiful,
           functional code.
           <br><br>
           Now I am trying to take the final step into my new career by finding a position in the industry from which
-           I can can continue to grow as a developer. In the meantime I am expanding my skillset and working on various
-           projects. 
+          I can can continue to grow as a developer. In the meantime I am expanding my skillset and working on various
+          projects.
         </p>
       </div>
     </div>
@@ -76,7 +78,9 @@
 
   <!-- Projects Page -->
   <div id='projects-page' class='full-page circuit1-background'>
-    <div class="header-box"><h2 id='project-header' class='page-header smoke-text text-shadow vertical-center horizontal-center'>Projects</h2></div>
+    <div class="header-box">
+      <h2 id='project-header' class='page-header smoke-text text-shadow vertical-center horizontal-center'>Projects</h2>
+    </div>
     <div id='projects-grid' class='grid-container'>
       <div id="netlazy-project" class='project-box'>
         <p id="netlazy-project-title" class='project-name vertical-center horizontal-center'>NetLazy</p>
@@ -93,16 +97,32 @@
       <div id="bootcamp-project" class='project-box'>
         <p id="bootcamp-project-title" class='project-name vertical-center horizontal-center'>Bootcamp Projects</p>
       </div>
+      <div id="portfolio-project" class='project-box'>
+        <p id="portfolio-project-title" class='project-name vertical-center horizontal-center'>This Portfolio</p>
+      </div>
     </div>
+    <!-- Blown up project page -->
     <div id='big-project-box' class="hidden horizontal-center vertical-center" onclick="toggleBigProject()">
-      <h2 id='bp-title'></h2>
+      <div style="height: 20%; position: relative;"><h2 id='bp-title' class="vertical-center"></h2></div>
+      <div id="bp-flex-container" class="flex-container">
+        <div id="project-description" style="width: 50%; height: 100%;">
+          <div style="height: 15%; position: relative;"><h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Description</h2></div>
+
+        </div>
+        <div id="project-links" style="width: 50%; height: 100%;">
+          <div style="height: 15%; position: relative;"><h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Links</h2></div>
+
+        </div>
+      </div>
     </div>
   </div>
 
 
   <!-- Contact Page -->
   <div id='contact-page' class='full-page circuit4-background'>
-    <div class="header-box"><h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>Contact</h2></div>
+    <div class="header-box">
+      <h2 class='page-header smoke-text text-shadow vertical-center horizontal-center'>Contact</h2>
+    </div>
     <div id='contact-info-container'>
       <div id='contact-info-box' class="horizontal-center vertical-center">
         <p class="contact-page-p">GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
@@ -113,10 +133,10 @@
       </div>
       <div id='message-window' class='horizontal-center vertical-center hidden'>
         <form action="" class="horizontal-center">
-          <p style="margin-top: 0; padding-top:1em ;"class = "form-p">Subject: </p>
-          <textarea  name="" id="" cols="30" rows="1"></textarea>
+          <p style="margin-top: 0; padding-top:1em ;" class="form-p">Subject: </p>
+          <textarea name="" id="" cols="30" rows="1"></textarea>
           <br>
-          <p class = "form-p">Message:</p>
+          <p class="form-p">Message:</p>
           <textarea name="" id="message-input" cols="30" rows="8"></textarea>
         </form>
         <div id="message-button-container" class="flex-container">
