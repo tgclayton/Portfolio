@@ -131,19 +131,14 @@ padding: 15vh 0 5vh;
 #landing-bio p {
   width: 40%;
   margin: auto;
-  /* background-color: rgba(33, 9, 170, 0.589); */
 }
 
 .page-header {
 margin-top: 0;
 font-size: 3em;
-padding-top: 1em;
+padding-top: 2em;
 /* text-decoration: underline; */
 }
-
-/* .grey {
-  background-color: rgb(33, 157, 173);
-} */
 
 .grid-container {
   padding-top: 3em;
