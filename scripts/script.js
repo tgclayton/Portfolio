@@ -7,14 +7,15 @@ const bigProject = document.getElementById('big-project-box')
 //   project.addEventListener('click', toggleBigProject())
 // }
 
-document.querySelectorAll('.project-box').forEach(item => {
-  item.addEventListener('click', () => toggleBigProject())
+document.querySelectorAll('.project-box').forEach(project => {
+  project.addEventListener('click', (e) => toggleBigProject(e, project.id))
 })
 
 function toggleSendMessage () {
   messageWindow.classList.toggle('hidden')
 }
 
-function toggleBigProject () {
+function toggleBigProject (e, id) {
+  console.log(id)
   bigProject.classList.toggle('hidden')
 }
