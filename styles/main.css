@@ -164,39 +164,6 @@ padding-top: 2em;
   position: absolute;
 }
 
-.project-box {
-  justify-self: center;
-  align-self: center;
-width: 15vw;
-height: 15vh;
-background-color: ivory;
-border: 1pt solid black;
-position: relative;
-text-align: center;
-box-shadow:4px 4px rgb(18, 36, 53);
-}
-
-.project-box:active {
-  background-color: rgb(230, 230, 216);
-}
-
-.project-name {
-  color: black;
-}
-
-#big-project-box {
-  height: 75vh;
-  width: 70vw;
-  background-color: ivory;
-  border: 2pt solid black;
-  box-shadow:6px 6px rgb(18, 36, 53);
-  outline: none;
-}
-
-#big-project-box:active {
-  background-color: rgb(230, 230, 216);
-}
-
 .hidden {
   display: none;
 }
