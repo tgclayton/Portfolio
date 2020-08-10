@@ -1,4 +1,4 @@
-#contact-page div {
+#contact-info-box {
   background-color: rgb(15, 138, 196, .8);
   }
   
@@ -38,4 +38,11 @@
 
    #message-window form {
 
+   }
+
+   #contact-info-container {
+     position: relative;
+     height: 60%;
+     width: 100%;
+     background-color: transparent;
    }
