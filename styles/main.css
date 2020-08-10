@@ -176,6 +176,10 @@ text-align: center;
 box-shadow:4px 4px rgb(18, 36, 53);
 }
 
+.project-box:active {
+  background-color: rgb(230, 230, 216);
+}
+
 .project-name {
   color: black;
 }
@@ -187,6 +191,10 @@ box-shadow:4px 4px rgb(18, 36, 53);
   border: 2pt solid black;
   box-shadow:6px 6px rgb(18, 36, 53);
   outline: none;
+}
+
+#big-project-box:active {
+  background-color: rgb(230, 230, 216);
 }
 
 .hidden {
