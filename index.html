@@ -71,6 +71,9 @@
     </div>
     <div class="footer-space"></div>
   </div>
+
+
+  <!-- Skills Page -->
   <!-- <div id='skills-page' class='full-page grey'>
     <h2 class='page-header smoke-text text-shadow'>Skills</h2>
   </div> -->
@@ -86,57 +89,70 @@
       <div id="netlazy-project" class='project-box'>
         <p id="netlazy-project-title" class='project-name vertical-center horizontal-center'>NetLazy</p>
         <div style="display: none;">
-        
+          <div id="netlazy-project-desc"></div>
+          <div id="netlazy-project-links"></div>
         </div>
       </div>
 
       <div id="gol-project" class='project-box'>
         <p id="gol-project-title" class='project-name vertical-center horizontal-center'>Game of Life</p>
         <div style="display: none;">
-        
+          <div id="gol-project-desc"><p>This is a test</p></div>
+          <div id="gol-project-links">Deployed Link: <a href="https://tom-gol.herokuapp.com/">tom-gol.herokuapp.com/</a>
+            GitHub: <a href="https://github.com/tgclayton/Tom-GOL">github.com/tgclayton/Tom-GOL</a></div>
         </div>
       </div>
 
       <div id="game-project" class='project-box'>
         <p id="game-project-title" class='project-name vertical-center horizontal-center'>Trial by Seven</p>
         <div style="display: none;">
-        
+          <div id="game-project-desc"></div>
+          <div id="game-project-links"></div>
         </div>
       </div>
 
       <div id="carnival-project" class='project-box'>
         <p id="carnival-project-title" class='project-name vertical-center horizontal-center'>JavaScript Carnival</p>
         <div style="display: none;">
-        
+          <div id="carnival-project-desc"></div>
+          <div id="carnival-project-links"></div>
         </div>
       </div>
 
       <div id="bootcamp-project" class='project-box'>
         <p id="bootcamp-project-title" class='project-name vertical-center horizontal-center'>Bootcamp Projects</p>
         <div style="display: none;">
-        
+          <div id="bootcamp-project-desc"></div>
+          <div id="bootcamp-project-links"></div>
         </div>
       </div>
 
       <div id="portfolio-project" class='project-box'>
         <p id="portfolio-project-title" class='project-name vertical-center horizontal-center'>This Portfolio</p>
         <div style="display: none;">
-        
+          <div id="portfolio-project-desc"></div>
+          <div id="portfolio-project-links"></div>
         </div>
       </div>
-
     </div>
+
     <!-- Blown up project page -->
     <div id='big-project-box' class="hidden horizontal-center vertical-center" onclick="toggleBigProject()">
-      <div style="height: 20%; position: relative;"><h2 id='bp-title' class="vertical-center"></h2></div>
+      <div style="height: 20%; position: relative;">
+        <h2 id='bp-title' class="vertical-center"></h2>
+      </div>
       <div id="bp-flex-container" class="flex-container">
-        <div id="project-description" style="width: 50%; height: 100%;">
-          <div style="height: 15%; position: relative;"><h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Description</h2></div>
-
+        <div id="project-description-container" style="width: 50%; height: 100%;">
+          <div style="height: 15%; position: relative;">
+            <h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Description</h2>
+          </div>
+          <div id="project-description-content"></div>
         </div>
-        <div id="project-links" style="width: 50%; height: 100%;">
-          <div style="height: 15%; position: relative;"><h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Links</h2></div>
-
+        <div id="project-links-container" style="width: 50%; height: 100%;">
+          <div style="height: 15%; position: relative;">
+            <h2 style="font-size: 1.3em;" class="vertical-center horizontal-center">Links</h2>
+          </div>
+          <div id="project-links-content"></div>
         </div>
       </div>
     </div>
@@ -171,7 +187,7 @@
         </div>
       </div>
     </div>
-    
+
     <div class='footer-space'></div>
   </div>
 

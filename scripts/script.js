@@ -16,9 +16,14 @@ function toggleSendMessage () {
 }
 
 function toggleBigProject (e, id) {
+  // console.log(id)
   bigProject.classList.toggle('hidden')
   if (!bigProject.classList.contains('hidden')) {
     const title = document.getElementById(id).innerText
+    const descSource = document.getElementById(id + '-desc').innerHTML
+    const linkSource = document.getElementById(id + '-links').innerHTML
     document.getElementById('bp-title').innerHTML = title
+    document.getElementById('project-description-content').innerHTML = descSource
+    document.getElementById('project-links-content').innerHTML = linkSource
   }
 }
