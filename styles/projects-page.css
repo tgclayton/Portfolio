@@ -30,3 +30,7 @@ box-shadow:4px 4px rgb(18, 36, 53);
 #big-project-box:active {
   background-color: rgb(230, 230, 216);
 }
+
+#bp-title {
+  padding: 2em;
+}
