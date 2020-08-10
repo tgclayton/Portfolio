@@ -2,11 +2,26 @@
   background-color: rgb(15, 138, 196, .8);
   }
   
-  #contact-page p {
+  .contact-page-p {
   font-size: x-large;
   padding: 1em;
   }
   
+  #contact-page input {
+    outline: none;
+    width: 70%;
+  }
+
+  #contact-page textarea {
+    width: 70%;
+    outline: none;
+    z-index: 1;
+  }
+
+  #message-input {
+    height: 50%;
+  }
+
   #contact-page a {
     color: ivory;
   }
@@ -30,19 +45,43 @@
   }
 
   #message-window {
+    position: relative;
     width: 60vw;
-    height: 60vh;
+    height: 99%;
     z-index: 1000;
     border: 2pt solid black;
+    background-color: rgb(15, 138, 196);
+    overflow: hidden;
    }
 
    #message-window form {
-
+     overflow: hidden;
+    position: relative;
+    height: 70%;
    }
+
+  .form-p {
+    font-size: 1em ; 
+    padding: 0 ;
+  }
 
    #contact-info-container {
      position: relative;
      height: 60%;
      width: 100%;
      background-color: transparent;
+   }
+
+   #message-button-container {
+     overflow: hidden;
+     flex-direction: row;
+     height: 30%;
+     align-items: center;
+   }
+
+   #message-button-container button {
+     height: 3em;
+     width: 15%;
+     margin: 1em 2em;
+     z-index: 10;
    }

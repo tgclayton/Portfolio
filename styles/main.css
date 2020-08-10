@@ -13,6 +13,11 @@ html {
   overflow-y: scroll;
 }
 
+div {
+/* overflow: hidden; */
+}
+
+
 #full-site {
   height: 100%;
   width: 100%
@@ -133,6 +138,11 @@ padding: 15vh 0 5vh;
 #landing-bio p {
   width: 40%;
   margin: auto;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0px;
 }
 
 .page-header {

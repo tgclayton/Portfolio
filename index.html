@@ -75,20 +75,27 @@
   </div>
   <div id='contact-page' class='full-page circuit4-background'>
     <h2 class='page-header smoke-text text-shadow'>Contact</h2>
-    <div id = 'contact-info-container'>
+    <div id='contact-info-container'>
       <div id='contact-info-box' class="horizontal-center vertical-center">
-        <p>GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
-        <p>LinkedIn: <a
+        <p class="contact-page-p">GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
+        <p class="contact-page-p">LinkedIn: <a
             href="https://www.linkedin.com/in/tom-clayton-a634221aa/">linkedin.com/in/tom-clayton-a634221aa</a></p>
-        <p>Email: <span style='color: ivory;'>tgclayton1@gmail.com</span> </p>
+        <p class="contact-page-p">Email: <span style='color: ivory;'>tgclayton1@gmail.com</span> </p>
         <button onclick="toggleSendMessage()">Send Me A Message</button>
       </div>
       <div id='message-window' class='horizontal-center vertical-center hidden'>
-        <form action="">
-          Subject: <input type="text">
-          Message:<input type="text">
+        <form action="" class="horizontal-center">
+          <p style="margin-top: 0; padding-top:1em ;"class = "form-p">Subject: </p>
+          <textarea  name="" id="" cols="30" rows="1"></textarea>
+          <br>
+          <p class = "form-p">Message:</p>
+          <textarea name="" id="message-input" cols="30" rows="8"></textarea>
         </form>
-        <button class="" onclick="toggleSendMessage()">Close</button>
+        <div id="message-button-container" class="flex-container">
+          <button onclick="toggleSendMessage()">Close</button>
+          <button>Submit</button>
+        </div>
+
       </div>
     </div>
     <div class='footer-space'></div>
