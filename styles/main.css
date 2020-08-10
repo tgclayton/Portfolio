@@ -46,11 +46,11 @@ div {
 }
 
 .nav-button:hover {
-  background-color: rgba(70, 70, 70, 0.664);
+  background-color: rgba(13, 28, 41, 0.8);
 }
 
 #nav-bar {
-  background-color: rgba(70, 70, 70, 0.3);
+  background-color: rgba(18, 36, 53, 0.7);
   position: fixed;
   bottom: 0;
   width: 100%;
