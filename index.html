@@ -29,6 +29,7 @@
       </a>
       <a href="#about-page">
         <p class='nav-button'>About</p>
+        <div id='about-info' class="horizontal-center vertical-center"></div>
       </a>
       <!-- <a href="#skills-page">
         <p class='nav-button'>Skills</p>
@@ -40,6 +41,7 @@
         <p class='nav-button'>Contact</p>
       </a>
     </div>
+    <div class="footer-space"></div>
   </div>
   <div id='about-page' class='full-page circuit2-background'>
     <h2 class='page-header smoke-text text-shadow'>About Me</h2>
@@ -50,41 +52,43 @@
   <div id='projects-page' class='full-page circuit1-background'>
     <h2 id='project-header' class='page-header smoke-text text-shadow'>Projects</h2>
     <div id='projects-grid' class='grid-container'>
-        <div id="netlazy-project" class='project-box'>
-          <p id="netlazy-project-title" class='project-name vertical-center horizontal-center'>NetLazy</p>
-        </div >
-        <div id="gol-project" class='project-box'>
-          <p id="gol-project-title" class='project-name vertical-center horizontal-center'>Game of Life</p>
-        </div>
-        <div id="game-project" class='project-box'>
-          <p id="game-project-title" class='project-name vertical-center horizontal-center'>Trial by Seven</p>
-        </div>
-        <div id="carnival-project" class='project-box'>
-          <p id="carnival-project-title" class='project-name vertical-center horizontal-center'>JavaScript Carnival</p>
-        </div>
-        <div id="bootcamp-project" class='project-box'>
-          <p id="bootcamp-project-title" class='project-name vertical-center horizontal-center'>Bootcamp Projects</p>
-        </div>
+      <div id="netlazy-project" class='project-box'>
+        <p id="netlazy-project-title" class='project-name vertical-center horizontal-center'>NetLazy</p>
+      </div>
+      <div id="gol-project" class='project-box'>
+        <p id="gol-project-title" class='project-name vertical-center horizontal-center'>Game of Life</p>
+      </div>
+      <div id="game-project" class='project-box'>
+        <p id="game-project-title" class='project-name vertical-center horizontal-center'>Trial by Seven</p>
+      </div>
+      <div id="carnival-project" class='project-box'>
+        <p id="carnival-project-title" class='project-name vertical-center horizontal-center'>JavaScript Carnival</p>
+      </div>
+      <div id="bootcamp-project" class='project-box'>
+        <p id="bootcamp-project-title" class='project-name vertical-center horizontal-center'>Bootcamp Projects</p>
+      </div>
     </div>
-    <div id ='big-project-box' class="hidden horizontal-center vertical-center" onclick="toggleBigProject()">
-      <h2 id ='bp-title'></h2>
+    <div id='big-project-box' class="hidden horizontal-center vertical-center" onclick="toggleBigProject()">
+      <h2 id='bp-title'></h2>
     </div>
   </div>
   <div id='contact-page' class='full-page circuit4-background'>
     <h2 class='page-header smoke-text text-shadow'>Contact</h2>
-    <div id ='contact-info-box' class="horizontal-center vertical-center">
-      <p>GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
-      <p>LinkedIn: <a
-          href="https://www.linkedin.com/in/tom-clayton-a634221aa/">linkedin.com/in/tom-clayton-a634221aa</a></p>
-      <p>Email: <span style = 'color: ivory;'>tgclayton1@gmail.com</span> </p>
-      <button onclick="toggleSendMessage()">Send Me A Message</button>
-    </div>
-    <div id = 'message-window' class = 'horizontal-center vertical-center hidden'>
-      <form action="">
-        Subject: <input type="text">
-        Message:<input type="text">
-      </form>
-      <button class="" onclick="toggleSendMessage()">Close</button>
+    <div style="position: relative;">
+      <div id='contact-info-box' class="horizontal-center vertical-center">
+        <p>GitHub: <a href="https://github.com/tgclayton" class="">github.com/tgclayton</a></p>
+        <p>LinkedIn: <a
+            href="https://www.linkedin.com/in/tom-clayton-a634221aa/">linkedin.com/in/tom-clayton-a634221aa</a></p>
+        <p>Email: <span style='color: ivory;'>tgclayton1@gmail.com</span> </p>
+        <button onclick="toggleSendMessage()">Send Me A Message</button>
+      </div>
+      <div id='message-window' class='horizontal-center vertical-center hidden'>
+        <form action="">
+          Subject: <input type="text">
+          Message:<input type="text">
+        </form>
+        <button class="" onclick="toggleSendMessage()">Close</button>
+      </div>
     </div>
   </div>
 </body>
