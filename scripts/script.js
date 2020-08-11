@@ -15,6 +15,13 @@ function toggleSendMessage () {
   messageWindow.classList.toggle('hidden')
 }
 
+function formSubmit () {
+  // console.log('submitted')
+  const message = document.getElementById('message-form')
+  message.submit()
+  message.reset()
+}
+
 function toggleBigProject (e, id) {
   // console.log(id)
   bigProject.classList.toggle('hidden')
