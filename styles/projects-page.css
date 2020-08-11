@@ -18,6 +18,11 @@ box-shadow:4px 4px rgb(18, 36, 53);
   color: black;
 }
 
+.bp-desc-p {
+  padding: 1em 2em;
+  text-align: justify;
+}
+
 #big-project-box {
   height: 75vh;
   width: 70vw;
