@@ -12,6 +12,7 @@ document.querySelectorAll('.project-box').forEach(project => {
 })
 
 function toggleSendMessage () {
+  document.getElementById('message-form').reset()
   messageWindow.classList.toggle('hidden')
 }
 
