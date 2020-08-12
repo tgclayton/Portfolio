@@ -1,0 +1,143 @@
+body {
+	font-family: 'Rye', cursive;
+	background-color: LightPink;
+}
+
+h1 { 
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 3em;
+	text-align: center;
+}
+
+table {
+  margin-right: center;
+  margin-left: center;
+  margin: 0 auto;
+}
+
+td {
+  background-color: BurlyWood;
+  height: 75px;
+  width: 75px;
+} 
+
+.container{
+    text-align: center;
+}
+
+.inflate-an-image{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    z-index: 100;
+}
+
+.dress-a-parent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.dress-an-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+ #head {
+	z-index: 2
+ }
+ 
+ #body {
+	z-index: 0
+ }
+
+  #shoes {
+	z-index: 1
+ }
+
+.ferris-wheel-car {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+.uniButton{
+  background-color: rgb(255, 182, 193);
+  border: none;
+  outline: none;
+
+}
+
+#startButton {
+
+}
+
+.moleButton {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.molePic {
+  width: 100%;
+  height: 100%;
+}
+
+.uni-reset {
+  margin: 4em auto .5em; 
+  display: block;
+  padding: 1em 2em;
+  font-size: large;
+  background-color: rgb(240, 128, 146);
+  outline: none;
+  border-color:rgb(240, 128, 146) rgba(240, 128, 147, 0.534) rgba(240, 128, 147, 0.301) ;
+  border-radius: .025rem;
+  font-family: 'Rye', cursive
+}
+
+.message-box{
+  margin: 2em auto;
+  width: 30em;
+ height: 7em;
+ /* border: 2px solid rgba(19, 11, 12, 0.952); */
+}
+
+#message {
+  padding: 1em;
+  text-align: center;
+}
+
+.clown-box p {
+padding: 2em;
+}
+
+.clown-box {
+  width: 15em;
+  border: 3px double black;
+  display: inline-block;
+  position: absolute;
+  right: 30em;
+  top: 20em;
+
+}
+
+.whack-box {
+  border: 3px double black;
+  padding: .5em;
+  width: 15em;
+}
+
+.centered-div {
+  margin: 1em auto 0;
+  display: block;
+}
+

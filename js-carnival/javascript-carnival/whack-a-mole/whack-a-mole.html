@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1">
+	  <title>JAVASCRIPT CARNIVAL: Whack-a-Mole!</title>
+	  <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="../main.css">
+
+	</head>
+
+	<body>
+
+		<h1> JAVASCRIPT CARNIVAL: Whack-a-Mole! </h1>
+
+
+<button class="centered-div uni-reset" type="button" id="startButton" onclick="startCount(); setTimeout (moleShow, 3000)">Start</button>
+
+<div id="countdown-display" class="centered-div whack-box" >Game starts in:				<span id="countdown"></span></div>
+
+
+<div class="centered-div whack-box" >Moles whacked:				<span id="count">0</span></div>
+
+<!-- <button type="button" id="" onclick="moleShow(4)">Start</button> -->
+
+<br>
+
+		<table id="molefield">
+		  <tr>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+		  </tr>
+		  <tr>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+			<td>  </td>
+		  </tr>
+		</table>
+		<div class="centered-div whack-box" >Time remaining:				<span id="timeLeft"></span></div>
+		<div class="centered-div whack-box" >Your High Score is:				<span id="highScore"></span></div>
+		<script src="whack-a-mole.js"></script>
+
+	</body>
+
+</html>
