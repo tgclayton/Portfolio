@@ -158,16 +158,6 @@ position: relative;
   height: 20%;
 }
 
-.grid-container {
-  padding-top: 3em;
-  display: grid;
-  grid-template-columns: repeat(3, 33.333%);
-  grid-template-rows: repeat(2, 50%);
-  height: 50vh;
-  width: 90%;
-  margin-left: 5%;
-}
-
 .horizontal-center {
   position: absolute;
   left: 0;

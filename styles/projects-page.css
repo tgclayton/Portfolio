@@ -47,3 +47,13 @@ box-shadow:4px 4px rgb(18, 36, 53);
   width: 100%;
   height: 80%;
 }
+
+.grid-container {
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 33.333%);
+  grid-template-rows: repeat(3, 33.333%);
+  height: 50vh;
+  width: 90%;
+  margin-left: 5%;
+}
