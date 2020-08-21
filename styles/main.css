@@ -3,6 +3,32 @@ body {
   padding: 0;
   font-family: 'Oswald', sans-serif;
 }
+/* If the screen size is 601px wide or more*/
+@media screen and (min-width: 601px) {
+  body {
+    --main-title-size: 3em;
+    --bio-width: 45%;
+    --subtitle-size: 2em;
+    --about-bio-size: 1.5vw;
+  }
+}
+
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+  body {
+    --main-title-size: 3em;
+    --subtitle-size: 2em;
+    --bio-width: 80%;
+    --about-bio-size: 2.2vw
+  }
+}
+
+/* If the screen size is 400px wide or less */
+@media screen and (max-width: 400px) {
+  body {
+    --about-bio-size: 3vw
+  }
+}
 
 html {
   margin: 0;
@@ -112,17 +138,17 @@ div {
 }
 
 .main-title {
-  font-size: 5em;
+  font-size: var(--main-title-size);
   margin: 0 auto;
 }
 
 .subtitle {
-  font-size: 2em;
+  font-size: var(--subtitle-size);
   margin-top: 0;
 }
 
 #landing-title-box {
-width: 35%;
+/* width: 35%; */
 margin: auto;
 position: relative;
 padding: 15vh 0 5vh;
@@ -137,7 +163,7 @@ padding: 15vh 0 5vh;
 }
 
 #landing-bio p {
-  width: 40%;
+  width: var(--bio-width);
   margin: auto;
 }
 
@@ -195,4 +221,11 @@ position: relative;
   background-color: rgb(18, 36, 53, .7);
   width: 100%;
   text-align: center;
+}
+
+#about-info p {
+  max-width: 70%;
+  margin: auto; 
+  font-size: var(--about-bio-size);
+  padding: 1em 0;
 }
