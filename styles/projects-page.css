@@ -90,3 +90,10 @@ font-size: var(--bp-title-size);
 #project-links-container {
   font-size: var(--big-p-size);
 }
+
+#bp-close-message {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
