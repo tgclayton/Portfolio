@@ -4,7 +4,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 /* If the screen size is 601px wide or more*/
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 701px) {
   body {
     --main-title-size: 3em;
     --bio-width: 45%;
@@ -12,11 +12,12 @@ body {
     --about-bio-size: 1.5vw;
     --nav-button-size: 1em;
     --about-info-width: 70%;
+    --project-box-width: 15vw;
   }
 }
 
 /* If the screen size is 600px wide or less */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   body {
     --main-title-size: 3em;
     --subtitle-size: 2em;
@@ -24,17 +25,19 @@ body {
     --about-bio-size: 2.2vw;
     --nav-button-size: .7em;
     --about-info-width: 80%;
+    --project-box-width: 15vw;
   }
-}
+} */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   body {
     --main-title-size: 2.5em;
     --subtitle-size: 1.5em;
-    /* --bio-width: 90%; */
+    --bio-width: 90%;
     --about-info-width: 90%;
     --about-bio-size: 2.5vw;
     --nav-button-size: .6em;
+    --project-box-width: 15vw;
   }
 }
 
@@ -45,12 +48,14 @@ body {
     --subtitle-size: 1.5em;
     --about-bio-size: 3vw;
     --nav-button-size: .5em;
+    --project-box-width: 20vw;
   }
 }
 
 @media screen and (max-width: 300px) {
   body {
     --about-bio-size: 3.5vw;
+    --project-box-width: 23vw;
   }
 }
 

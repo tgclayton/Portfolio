@@ -3,6 +3,7 @@
     --big-p-size: 1em;
     --big-p-padding: 1em 2em;
     --bp-title-size:20pt !important;
+    --project-box-width: 100px;
   }
 }
 
@@ -11,6 +12,7 @@
     --big-p-size: 0.8em;
     --big-p-padding: 1em 2em;
     --bp-title-size:15pt !important;
+    --project-box-width: 15vw;
   }
 }
 
@@ -25,13 +27,13 @@
 .project-box {
   justify-self: center;
   align-self: center;
-width: 15vw;
-height: 15vh;
-background-color: ivory;
-border: 1pt solid black;
-position: relative;
-text-align: center;
-box-shadow:4px 4px rgb(18, 36, 53);
+  width: var(--project-box-width);
+  height: 15vh;
+  background-color: ivory;
+  border: 1pt solid black;
+  position: relative;
+  text-align: center;
+  box-shadow:4px 4px rgb(18, 36, 53);
 }
 
 .project-box:active {
