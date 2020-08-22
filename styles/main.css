@@ -4,7 +4,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 /* If the screen size is 601px wide or more*/
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 800px) {
   body {
     --main-title-size: 3em;
     --bio-width: 45%;
@@ -15,19 +15,6 @@ body {
     --project-box-width: 15vw;
   }
 }
-
-/* If the screen size is 600px wide or less */
-/* @media screen and (max-width: 600px) {
-  body {
-    --main-title-size: 3em;
-    --subtitle-size: 2em;
-    --bio-width: 80%;
-    --about-bio-size: 2.2vw;
-    --nav-button-size: .7em;
-    --about-info-width: 80%;
-    --project-box-width: 15vw;
-  }
-} */
 
 @media screen and (max-width: 700px) {
   body {
