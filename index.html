@@ -20,7 +20,7 @@
       <p class='subtitle'>Full Stack Web Developer</p>
     </div>
     <div id='landing-bio'>
-      <p>I'm Tom, a junior web developer currently looking
+      <p>I'm Tom, a junior web developer looking
         to land my first role in the industry. Currently I am developing my skills
         and working on various projects. </p>
     </div>
@@ -288,16 +288,20 @@
         <!-- <p class="contact-page-p">Email: <span style='color: ivory;'>tgclayton1@gmail.com</span> </p> -->
         <button onclick="toggleSendMessage()">Send Me an Email</button>
       </div>
+
       <div id='message-window' class='horizontal-center vertical-center hidden'>
         <form id="message-form" netlify action="POST" name="Portfolio Message" class="horizontal-center">
           <p style="margin-top: 0; padding-top:1em ;" class="form-p">Return Address: </p>
-          <textarea name="message-return" id="" cols="30" rows="1">Please include contact details so I can get back to you</textarea>
+          <textarea name="message-return-address" id="" cols="30" rows="1">
+            Please include contact details so I can get back to you
+          </textarea>
+
           <p style="margin-top: 0; padding-top:1em ;" class="form-p">Subject: </p>
           <textarea name="message-subject" id="" cols="30" rows="1"></textarea>
           <br>
+
           <p class="form-p">Message:</p>
-          <textarea name="message-body" id="message-input" cols="30"
-            rows="8"></textarea>
+          <textarea name="message-body" id="message-input" cols="30" rows="8"></textarea>
           <!-- <button type="submit">submit</button> -->
         </form>
         <div id="message-button-container" class="flex-container">

@@ -156,6 +156,7 @@ padding: 15vh 0 5vh;
 
 #landing-bio {
   position: relative;
+  top: 1em;
   width: 100%;
   margin:1.5em auto;
   font-size: 1.5em;
