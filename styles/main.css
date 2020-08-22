@@ -11,6 +11,7 @@ body {
     --subtitle-size: 2em;
     --about-bio-size: 1.5vw;
     --nav-button-size: 1em;
+    --about-info-width: 70%;
   }
 }
 
@@ -22,15 +23,17 @@ body {
     --bio-width: 80%;
     --about-bio-size: 2.2vw;
     --nav-button-size: .7em;
+    --about-info-width: 80%;
   }
 }
 
 @media screen and (max-width: 600px) {
   body {
-    /* --main-title-size: 3em;
-    --subtitle-size: 2em;
-    --bio-width: 80%;
-    --about-bio-size: 2.2vw; */
+    --main-title-size: 2.5em;
+    --subtitle-size: 1.5em;
+    /* --bio-width: 90%; */
+    --about-info-width: 90%;
+    --about-bio-size: 2.5vw;
     --nav-button-size: .6em;
   }
 }
@@ -38,7 +41,10 @@ body {
 /* If the screen size is 400px wide or less */
 @media screen and (max-width: 400px) {
   body {
-    --about-bio-size: 3vw
+    --main-title-size: 2.5em;
+    --subtitle-size: 1.5em;
+    --about-bio-size: 3vw;
+    --nav-button-size: .4em;
   }
 }
 
@@ -240,7 +246,7 @@ position: relative;
 }
 
 #about-info p {
-  max-width: 70%;
+  max-width: var(--about-info-width);
   margin: auto; 
   font-size: var(--about-bio-size);
   padding: 1em 0;
