@@ -10,6 +10,7 @@ body {
     --bio-width: 45%;
     --subtitle-size: 2em;
     --about-bio-size: 1.5vw;
+    --nav-button-size: 1em;
   }
 }
 
@@ -19,7 +20,18 @@ body {
     --main-title-size: 3em;
     --subtitle-size: 2em;
     --bio-width: 80%;
-    --about-bio-size: 2.2vw
+    --about-bio-size: 2.2vw;
+    --nav-button-size: .7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    /* --main-title-size: 3em;
+    --subtitle-size: 2em;
+    --bio-width: 80%;
+    --about-bio-size: 2.2vw; */
+    --nav-button-size: .6em;
   }
 }
 
@@ -67,8 +79,10 @@ div {
 }
 
 .nav-button {
+  font-size: var(--nav-button-size);
   margin:0 1em;
-  padding: .75em;
+  padding: 0 1em;
+  vertical-align: middle;
 }
 
 .nav-button:hover {
@@ -83,6 +97,7 @@ div {
   z-index: 100;
   font-size: 1.5em;
   height: 3em;
+  line-height: 3em;
 }
 
 
