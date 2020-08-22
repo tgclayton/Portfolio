@@ -39,12 +39,18 @@ body {
 }
 
 /* If the screen size is 400px wide or less */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
   body {
     --main-title-size: 2.5em;
     --subtitle-size: 1.5em;
     --about-bio-size: 3vw;
-    --nav-button-size: .4em;
+    --nav-button-size: .5em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body {
+    --about-bio-size: 3.5vw;
   }
 }
 
