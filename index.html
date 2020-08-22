@@ -269,7 +269,7 @@
           <div id="project-links-content"></div>
         </div>
       </div>
-      <p id="bp-close-message">Click anywhere to close</p>
+      <p id="">Click anywhere to close</p>
     </div>
 
   </div>
@@ -293,17 +293,11 @@
       <div id='message-window' class='horizontal-center vertical-center hidden'>
         <form id="message-form" netlify action="POST" name="Portfolio Message" class="horizontal-center">
           <p style="margin-top: 0; padding-top:1em ;" class="form-p">Return Address: </p>
-          <textarea name="message-return-address" id="" cols="30" rows="1">
-            Please include contact details so I can get back to you
-          </textarea>
-
+          <textarea name="message-return-address" id="" cols="30" rows="1"></textarea>
           <p style="margin-top: 0; padding-top:1em ;" class="form-p">Subject: </p>
           <textarea name="message-subject" id="" cols="30" rows="1"></textarea>
-          <br>
-
           <p class="form-p">Message:</p>
-          <textarea name="message-body" id="message-input" cols="30" rows="8"></textarea>
-          <!-- <button type="submit">submit</button> -->
+          <textarea name="message-body" id="message-input" cols="30" rows="5"></textarea>
         </form>
         <div id="message-button-container" class="flex-container">
           <button onclick="toggleSendMessage()">Close</button>

@@ -249,3 +249,7 @@ position: relative;
   font-size: var(--about-bio-size);
   padding: 1em 0;
 }
+
+textarea {
+  border: 1pt solid black;
+}
