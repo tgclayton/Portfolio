@@ -34,7 +34,7 @@
     padding: .5em;
     margin: .5em;
     font-family: 'Oswald', sans-serif;
-    font-size: larger;
+    font-size: var(--contact-button-size);
     background-color: ivory;
     border-color: rgb(7, 81, 150);
     outline: none;
